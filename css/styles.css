@@ -13,6 +13,10 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+:root {
+  background-color: #000;
+}
+
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
@@ -33,7 +37,7 @@
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
+  border-radius: 50%;
 }
 
 .gallery .control-button {
@@ -46,7 +50,8 @@
 }
 
 
-/* Show Grid */
+/* Show Grid
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+*/
