@@ -4,8 +4,7 @@
 
 /* Gallery Stying */
 .gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+  color: #a61412;
 }
 
 .gallery .control-button:hover {
@@ -27,7 +26,7 @@
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  background: #a61412;
 }
 .gallery .controls {
   position: absolute;
@@ -38,6 +37,7 @@
 
 .gallery .controls img {
   border-radius: 50%;
+  border: #a61412 2px solid;
 }
 
 .gallery .control-button {
@@ -47,6 +47,14 @@
   text-align: center;
   text-decoration: none;
   transition: color .1s;
+}
+
+p {
+  color: #555;
+  font-family: 'Futura', 'Helvetica', sans-serif;
+  font-size: .75em;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 
